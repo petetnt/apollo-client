@@ -59,7 +59,10 @@ export default graphql(currentUserQuery)(Profile)
 
 ## Create-React-App
 
-[react-app-rewire-inline-import-graphql-ast](https://github.com/detrohutt/react-app-rewire-inline-import-graphql-ast/) is available for users of [create-react-app](https://github.com/facebook/create-react-app/) that would like to use graphql files without needing to eject the app first.
+`create-react-app@2.0.0` supports loadings `.graphql` files [out of the box](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-graphql-files).
+
+
+For `create-react-app@1` and under, [react-app-rewire-inline-import-graphql-ast](https://github.com/detrohutt/react-app-rewire-inline-import-graphql-ast/) is available for users of [create-react-app](https://github.com/facebook/create-react-app/) that would like to use graphql files without needing to eject the app first.
 
 ## Fragments
 
